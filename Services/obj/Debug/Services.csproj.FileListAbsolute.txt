@@ -1,0 +1,6 @@
+C:\Users\vikaskumar\Documents\Visual Studio 2013\Projects\GeekChacha\Services\bin\Services.dll.config
+C:\Users\vikaskumar\Documents\Visual Studio 2013\Projects\GeekChacha\Services\bin\Services.dll
+C:\Users\vikaskumar\Documents\Visual Studio 2013\Projects\GeekChacha\Services\bin\Services.pdb
+C:\Users\vikaskumar\Documents\Visual Studio 2013\Projects\GeekChacha\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\vikaskumar\Documents\Visual Studio 2013\Projects\GeekChacha\Services\obj\Debug\Services.dll
+C:\Users\vikaskumar\Documents\Visual Studio 2013\Projects\GeekChacha\Services\obj\Debug\Services.pdb
