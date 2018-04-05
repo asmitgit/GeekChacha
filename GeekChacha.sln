@@ -3,33 +3,59 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "GeekChacha", "http://localhost:54974", "{DC2974D6-77A8-4F52-B600-5C128655E443}"
-	ProjectSection(WebsiteProperties) = preProject
-		UseIISExpress = "true"
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_54974"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\GeekChacha\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54974\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_54974"
-		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\GeekChacha\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54974\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		SlnRelativePath = "..\..\WebSites\GeekChacha\"
-		DefaultWebSiteLanguage = "Visual C#"
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{AE00FFAC-F53D-4F15-AF7A-84F7ED69047C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{94046B85-238A-46E9-AFD5-34F98124340D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyLayer", "PropertyLayer\PropertyLayer.csproj", "{24918FF0-20A0-4546-8CC1-1D41800FB3F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HTML", "HTML", "{F4FF73A6-B814-4C02-B0F3-17FFBB1C6286}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\GitHub\GeekChacha\HTML\html\about.html = ..\..\..\GitHub\GeekChacha\HTML\html\about.html
+		..\..\..\GitHub\GeekChacha\HTML\html\blog.html = ..\..\..\GitHub\GeekChacha\HTML\html\blog.html
+		..\..\..\GitHub\GeekChacha\HTML\html\blog_details.html = ..\..\..\GitHub\GeekChacha\HTML\html\blog_details.html
+		..\..\..\GitHub\GeekChacha\HTML\html\company_details.html = ..\..\..\GitHub\GeekChacha\HTML\html\company_details.html
+		..\..\..\GitHub\GeekChacha\HTML\html\company_listing.html = ..\..\..\GitHub\GeekChacha\HTML\html\company_listing.html
+		..\..\..\GitHub\GeekChacha\HTML\html\company_profile.html = ..\..\..\GitHub\GeekChacha\HTML\html\company_profile.html
+		..\..\..\GitHub\GeekChacha\HTML\html\contact.html = ..\..\..\GitHub\GeekChacha\HTML\html\contact.html
+		..\..\..\GitHub\GeekChacha\HTML\html\edit_profiles.html = ..\..\..\GitHub\GeekChacha\HTML\html\edit_profiles.html
+		..\..\..\GitHub\GeekChacha\HTML\html\error_404.html = ..\..\..\GitHub\GeekChacha\HTML\html\error_404.html
+		..\..\..\GitHub\GeekChacha\HTML\html\help.html = ..\..\..\GitHub\GeekChacha\HTML\html\help.html
+		..\..\..\GitHub\GeekChacha\HTML\html\help_details.html = ..\..\..\GitHub\GeekChacha\HTML\html\help_details.html
+		..\..\..\GitHub\GeekChacha\HTML\html\home_1.html = ..\..\..\GitHub\GeekChacha\HTML\html\home_1.html
+		..\..\..\GitHub\GeekChacha\HTML\html\home_2.html = ..\..\..\GitHub\GeekChacha\HTML\html\home_2.html
+		..\..\..\GitHub\GeekChacha\HTML\html\home_3.html = ..\..\..\GitHub\GeekChacha\HTML\html\home_3.html
+		..\..\..\GitHub\GeekChacha\HTML\html\job_category.html = ..\..\..\GitHub\GeekChacha\HTML\html\job_category.html
+		..\..\..\GitHub\GeekChacha\HTML\html\job_details.html = ..\..\..\GitHub\GeekChacha\HTML\html\job_details.html
+		..\..\..\GitHub\GeekChacha\HTML\html\job_listing.html = ..\..\..\GitHub\GeekChacha\HTML\html\job_listing.html
+		..\..\..\GitHub\GeekChacha\HTML\html\login.html = ..\..\..\GitHub\GeekChacha\HTML\html\login.html
+		..\..\..\GitHub\GeekChacha\HTML\html\manage_job.html = ..\..\..\GitHub\GeekChacha\HTML\html\manage_job.html
+		..\..\..\GitHub\GeekChacha\HTML\html\post_job.html = ..\..\..\GitHub\GeekChacha\HTML\html\post_job.html
+		..\..\..\GitHub\GeekChacha\HTML\html\register.html = ..\..\..\GitHub\GeekChacha\HTML\html\register.html
+		..\..\..\GitHub\GeekChacha\HTML\html\resume_details.html = ..\..\..\GitHub\GeekChacha\HTML\html\resume_details.html
+		..\..\..\GitHub\GeekChacha\HTML\html\resume_listing.html = ..\..\..\GitHub\GeekChacha\HTML\html\resume_listing.html
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "GeekChacha(1)", "http://localhost:55495", "{2C8C8EA9-8CA3-4A02-AAAA-F44AF59BCBC9}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_55495"
+		Debug.AspNetCompiler.PhysicalPath = "GeekChacha\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55495\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_55495"
+		Release.AspNetCompiler.PhysicalPath = "GeekChacha\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55495\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "GeekChacha\"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,10 +63,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DC2974D6-77A8-4F52-B600-5C128655E443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DC2974D6-77A8-4F52-B600-5C128655E443}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DC2974D6-77A8-4F52-B600-5C128655E443}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{DC2974D6-77A8-4F52-B600-5C128655E443}.Release|Any CPU.Build.0 = Debug|Any CPU
 		{AE00FFAC-F53D-4F15-AF7A-84F7ED69047C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AE00FFAC-F53D-4F15-AF7A-84F7ED69047C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE00FFAC-F53D-4F15-AF7A-84F7ED69047C}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -53,6 +75,10 @@ Global
 		{24918FF0-20A0-4546-8CC1-1D41800FB3F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24918FF0-20A0-4546-8CC1-1D41800FB3F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24918FF0-20A0-4546-8CC1-1D41800FB3F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C8C8EA9-8CA3-4A02-AAAA-F44AF59BCBC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C8C8EA9-8CA3-4A02-AAAA-F44AF59BCBC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C8C8EA9-8CA3-4A02-AAAA-F44AF59BCBC9}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C8C8EA9-8CA3-4A02-AAAA-F44AF59BCBC9}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
